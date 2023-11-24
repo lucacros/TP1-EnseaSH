@@ -1,5 +1,6 @@
 # TP1-EnseaSH
-2 séances pour réaliser un micro shell, affichant les codes de sortie et les temps d’exécution des programmes lancés.
+2 sessions to create a micro shell, displaying the output codes and execution times of launched programs.
+
 
 24/11
 
