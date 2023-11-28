@@ -1,8 +1,9 @@
-# TP1-EnseaSH
-2 sessions to create a micro shell, displaying the output codes and execution times of launched programs.
+# TP1-EnseaSH✨
+2 sessions to create a micro shell, displaying the output codes and execution times of launched programs.😎
 
+The two members of this project come from the great **2G2TD1TP1** :  Luca CROSETTO & Manon GIANINO 
 
-24/11
+Super Supervisor teacher : M.MONCHAL
 
-Link my github repository to my VSC app
+##Table of contents
 
