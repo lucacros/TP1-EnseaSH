@@ -14,7 +14,7 @@ int number;
 
 int main (){
     char message[]="Bienvenue sur le shell ENSEA. \nPour quitter tapez sur 'exit'.\n";
-    char goodbye[] = "Bye bye...";
+    char goodbye[] = "Bye bye...\n";
     size_t messageSize = sizeof(message)-1; //the size of the message excluding the null character
     
     //using the write fonction to write to the standard output(int fildes=1)
@@ -34,21 +34,22 @@ int main (){
             COMMAND[number - 1] = '\0'; // Verifying that the command line is terminated
         }
       
-        //creating a child process
-        pid_t pid = fork();
-        int status;
-        
-        if (strcmp(COMMAND, "exit") == 0) {
-            // write "Bye bye" and get out of the while
+       if (strcmp(COMMAND, "exit") == 0) {
+            // write "Bye bye" and get out of the while if "exit"
             write(STDOUT_FILENO, goodbye, sizeof(goodbye) - 1);
-            break;
+            exit(EXIT_SUCCESS);
         }
         //verification that ctrl+d has been pressed
         if (number==0){
             write(STDOUT_FILENO, goodbye, sizeof(goodbye) - 1);
-            break;
+            exit(EXIT_SUCCESS);
         }
 
+        //creating a child process
+        pid_t pid = fork();
+        int status;
+        
+       
         if (pid==-1)
         {
             perror("the fork bog down...\n"); // error message
