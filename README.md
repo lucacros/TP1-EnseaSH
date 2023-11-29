@@ -6,7 +6,21 @@ The two members of this project come from the great **2G2TD1TP1** :  Luca CROSET
 Super Supervisor teacher : M.MONCHAL
 
 ## Display on the screen for each Questions
-
+### Q1.
 ![image](https://github.com/lucacros/TP1-EnseaSH/assets/136320490/25b3c442-8a51-407c-8f7a-2bcae8cad6fe)
+![image](https://github.com/lucacros/TP1-EnseaSH/assets/136320490/e70c6a77-0021-4a1f-a46d-809681f0c1c5)
+
+### Q2.
+![image](https://github.com/lucacros/TP1-EnseaSH/assets/136320490/cba02e34-ee04-440b-8eda-7896ec6549a5)
+![image](https://github.com/lucacros/TP1-EnseaSH/assets/136320490/4e624a33-2a87-4248-8917-1eb229dc340c)
+![image](https://github.com/lucacros/TP1-EnseaSH/assets/136320490/7f33dad5-6439-4e35-b0ff-508461000f66)
+
+We saw the particularity that when you send nothing it returns the date.
+
+
+### Q3.
+
+
+
 
 
