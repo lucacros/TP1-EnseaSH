@@ -19,6 +19,17 @@ We saw the particularity that when you send nothing it returns the date.
 
 
 ### Q3.
+![image](https://github.com/lucacros/TP1-EnseaSH/assets/136320490/a5f50b01-bb5b-459f-ad76-526e2e012daa)
+- With "Exit"
+![image](https://github.com/lucacros/TP1-EnseaSH/assets/136320490/e88613c2-dd68-4e9b-b705-c490432b8ee0)
+
+- With "CTRL + D"
+![image](https://github.com/lucacros/TP1-EnseaSH/assets/136320490/e4de7833-8a1f-43a6-876f-22258e3426a0)
+
+### Q4.
+![image](https://github.com/lucacros/TP1-EnseaSH/assets/136320490/8c199407-328a-40ce-94bb-e4912286292e)
+
+
 
 
 
