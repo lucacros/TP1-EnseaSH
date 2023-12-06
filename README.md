@@ -5,6 +5,10 @@ The two members of this project come from the great **2G2TD1TP1** :  Luca CROSET
 
 Super Supervisor teacher : M.MONCHAL
 
+>[!IMPORTANT]
+>The README is like our report for the answer displays
+>The files in C with code commentary are accessing above
+
 ## Display on the screen for each Questions
 ### Q1.
 ![image](https://github.com/lucacros/TP1-EnseaSH/assets/136320490/25b3c442-8a51-407c-8f7a-2bcae8cad6fe)
