@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "enseash2.C": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }

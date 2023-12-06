@@ -28,6 +28,13 @@ We saw the particularity that when you send nothing it returns the date.
 
 ### Q4.
 ![image](https://github.com/lucacros/TP1-EnseaSH/assets/136320490/8c199407-328a-40ce-94bb-e4912286292e)
+![imageQ4](/img/image.png)
+
+
+### Q5.
+![imageQ5](/img/imageq5.png)
+- clock_gettime function 
+![clockgettime](/img/clock.png)
 
 
 
