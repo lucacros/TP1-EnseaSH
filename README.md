@@ -6,8 +6,8 @@ The two members of this project come from the great **2G2TD1TP1** :  Luca CROSET
 Super Supervisor teacher : M.MONCHAL
 
 >[!IMPORTANT]
->The README is like our report for the answer displays
->The files in C with code commentary are accessing above
+>The README is our report for the answer shell displays.
+> The files in C with code commentary are accessing above
 
 ## Display on the screen for each Questions
 ### Q1.
