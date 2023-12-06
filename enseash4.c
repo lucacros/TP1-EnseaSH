@@ -1,4 +1,4 @@
-//5. Execution time measure
+//4. Command back code
 #include<stdio.h>
 #include<unistd.h>//necessary to use the write function
 #include<stdlib.h>
@@ -12,10 +12,16 @@ char COMMAND[SIZE]; // stock the command user
 int number;
 char startline[256] = "enseash % "; 
 
+
 int main (){
     char message[]=" ~~~ WELCOME to the Fabulous SHELL ENSEA !!! ~~~ \nPour quitter tapez sur 'exit'.\nenseash %";
     char goodbye[] = "Bye bye...\n";
     size_t messageSize = sizeof(message)-1; //the size of the message excluding the null character
+
+
+
+    
+    
     
     //using the write fonction to write to the standard output(int fildes=1)
     write(1,message, messageSize); 
@@ -59,7 +65,7 @@ int main (){
         {
             //Child process
             execlp(COMMAND,COMMAND,(char *) NULL);
-            perror("enseash %%");
+            perror("error enseash %%");
             exit(127); // command not found
         }
 
