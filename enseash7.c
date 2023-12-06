@@ -1,10 +1,11 @@
-//6. Complex command execution
+//7. Redirection gestion '>' & '<'
 #include<stdio.h>
 #include<unistd.h>//necessary to use the write function
 #include<stdlib.h>
 #include<string.h>// Q6. strtok function
 #include<sys/wait.h> 
 #include<time.h> //Q5. importing clock_getime function
+#include<fcntl.h>//Q7.
 
 #define SIZE 256 // High of memory for the command line
 
@@ -21,6 +22,8 @@ long duration;
 //Q6. Commandline
 char*Word[SIZE] = {NULL};
 //
+
+
 
 
 int main (){
@@ -91,6 +94,29 @@ int main (){
         //Child process
         if (pid==0)
         {
+            //Q7.
+            //strstr searchs '>' in the commandline
+            if((strstr(COMMAND,">"))!=NULL){
+                char *left = strtok(COMMAND, ">");
+                char *right = strtok(NULL,">");
+
+                int fd_file = open(right , O_CREAT | O_WRONLY);
+                dup2(fd_file,STDOUT_FILENO);
+                strcpy(COMMAND,left);
+            }
+            //Take the argument file
+            else if((strstr(COMMAND,"<"))!=NULL){
+                char *left = strtok(COMMAND, "<");
+                char *right = strtok(NULL,"<");
+
+                int out_file = open(right, O_RDONLY );
+                dup2(out_file,STDIN_FILENO);
+                strcpy(COMMAND,left);
+
+                
+            }
+
+
             //Q6 take command argument and then tab of arguments separated with " "
             execvp(Word[0],Word);
             //
@@ -130,3 +156,4 @@ int main (){
 
     }
 }
+
