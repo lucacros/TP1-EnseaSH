@@ -35,6 +35,11 @@ We saw the particularity that when you send nothing it returns the date.
 ![imageQ5](/img/imageq5.png)
 - clock_gettime function 
 ![clockgettime](/img/clock.png)
+![sortie](/img/timeduration.png)
+
+### Q6.
+![question6](/img/imageq6.png)
+![answer6](/img/shell6.png)
 
 
 
